@@ -1,0 +1,30 @@
+@import url('https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans');
+
+body {
+  margin: 0;
+  padding: 40px 100px;
+  font-family: 'open-sans';
+}
+
+.row-on-desktop {
+  display: flex;
+  flex-direction: row
+}
+
+.article-text {
+  padding: 0 60px 0 0
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 5px;
+  }
+  .row-on-desktop {
+    flex-direction: column;
+    align-items: center
+  }
+  .article-text {
+    padding: 0
+  }
+}
+
