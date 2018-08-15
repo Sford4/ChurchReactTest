@@ -73,7 +73,7 @@ const styles = {
 		margin: '5px 0 25px 0'
 	},
 	typeTitle: {
-		color: 'blue'
+		color: '#3F79A1'
 	},
 	title: {
 		fontSize: '32px',

@@ -79,7 +79,7 @@ const styles = {
 	},
 	link: {
 		textDecoration: 'none',
-		color: 'blue',
+		color: '#3F79A1',
 		fontSize: '18px'
 	},
 	row: {
